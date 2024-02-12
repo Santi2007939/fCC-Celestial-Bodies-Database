@@ -17,7 +17,7 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |     1     | Triangulum Galaxy |     Spiral     | The Triangulum Galaxy is the third-largest galaxy in the Local Group. |        3000000       |          t           |            f             |
 
 <p align="center">
-  <img width="400" height="400" src="src/galaxy.png">
+  <img width="150" height="150" src="src/galaxy.png">
 </p>
 
 ### star
@@ -28,7 +28,7 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |    3    | Alpha Centauri B |       K       |        V         |               5260 |     f     |      f      |     1     |
 
 <p align="center">
-  <img width="400" height="400" src="src/star.png">
+  <img width="150" height="150" src="src/star.png">
 </p>
 
 ### planet
@@ -39,7 +39,7 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |     3     | Earth   |  Terrestrial   |    12742    | 5.97 × 10^24 |     9.81    |       1      |           4600           |      t       | t         |       1 |
 
 <p align="center">
-  <img width="400" height="400" src="src/planet.png">
+  <img width="150" height="150" src="src/planet.png">
 </p>
 
 ### moon
@@ -50,7 +50,7 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |    3    | Deimos |     12      | 2.0 × 10^15  | 2000000000000000        |     0          |     f    |       f        |     4     |
 
 <p align="center">
-  <img width="400" height="400" src="src/moon.png">
+  <img width="150" height="150" src="src/moon.png">
 </p>
 
 ### universe_entity
@@ -59,6 +59,10 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |          1         |   galaxy    | Milky Way  |  diameter_ly   | 100000          |     1     |         |         |           |                |          |                |                   |                     |
 |          2         |   moon      | Luna       |  diameter_km   | 3474            |           |    1    |         |           |                |          |                |                   |                     |
 |          3         |   star      | Sun        |  mass_kg       | 1.989 × 10^30   |           |         |    1    |           |                |          | 
+
+<p align="center">
+  <img width="150" height="150" src="src/universe.png">
+</p>
 
 ## Consults
 
