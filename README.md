@@ -16,12 +16,20 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |     1     | Andromeda         |     Spiral     | The Andromeda Galaxy is the closest spiral galaxy to the Milky Way.   |        2500000       |          t           |            f             |
 |     1     | Triangulum Galaxy |     Spiral     | The Triangulum Galaxy is the third-largest galaxy in the Local Group. |        3000000       |          t           |            f             |
 
+<p align="center">
+  <img width="400" height="400" src="src/galaxy.png">
+</p>
+
 ### star
 | star_id |       name       | spectral_type | luminosity_class | temperature_kelvin | is_binary | is_variable | galaxy_id |
 |---------|------------------|---------------|------------------|--------------------|-----------|-------------|-----------|
 |    1    | Sun              |       G       |        V         |               5778 |     f     |      f      |     1     |
 |    2    | Alpha Centauri A |       G       |        V         |               5790 |     f     |      f      |     1     |
 |    3    | Alpha Centauri B |       K       |        V         |               5260 |     f     |      f      |     1     |
+
+<p align="center">
+  <img width="400" height="400" src="src/star.png">
+</p>
 
 ### planet
 | planet_id |   name  | type_of_planet | diameter_km |   mass_kg    | gravity_ms2 | num_of_moons | age_in_millions_of_years | is_spherical | habitable | star_id |
@@ -30,12 +38,20 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |     2     | Venus   |  Terrestrial   |    12104    | 4.87 × 10^24 |     8.87    |       0      |           4600           |      t       | f         |       1 |
 |     3     | Earth   |  Terrestrial   |    12742    | 5.97 × 10^24 |     9.81    |       1      |           4600           |      t       | t         |       1 |
 
+<p align="center">
+  <img width="400" height="400" src="src/planet.png">
+</p>
+
 ### moon
 | moon_id |  name  | diameter_km |    mass_kg   |       mass_numeric      | num_of_craters | is_round | has_atmosphere | planet_id |
 |---------|--------|-------------|--------------|-------------------------|----------------|----------|----------------|-----------|
 |    1    | Luna   |     3474    | 7.35 × 10^22 | 73500000000000000000000 |     500000     |     t    |       f        |     3     |
 |    2    | Phobos |     22      | 1.08 × 10^16 | 10800000000000000       |     0          |     f    |       f        |     4     |
 |    3    | Deimos |     12      | 2.0 × 10^15  | 2000000000000000        |     0          |     f    |       f        |     4     |
+
+<p align="center">
+  <img width="400" height="400" src="src/moon.png">
+</p>
 
 ### universe_entity
 | universe_entity_id | entity_type |    name    | attribute_name | attribute_value | galaxy_id | moon_id | star_id | planet_id | num_of_craters | is_round | has_atmosphere | num_of_satellites | orbital_period_days |
