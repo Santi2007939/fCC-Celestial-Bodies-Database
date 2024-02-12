@@ -3,6 +3,8 @@
 ## Description:
 This is a database of celestial bodies with data provided by **Chat-GPT**. I only do this to revise PSQL and resolve the freeCodeCamp project. Please, don't take this as something important, only entertainment.
 
+![Project's Logo](src/icon.png)
+
 ## Tables
 
 ### galaxy
