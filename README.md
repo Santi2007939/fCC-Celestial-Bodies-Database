@@ -40,3 +40,22 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 |          2         |   moon      | Luna       |  diameter_km   | 3474            |           |    1    |         |           |                |          |                |                   |                     |
 |          3         |   star      | Sun        |  mass_kg       | 1.989 × 10^30   |           |         |    1    |           |                |          | 
 
+## Consults
+
+### Consult #1
+With this consult, we call the tables of the galaxy and star. We will see the relation between them in the **star_id** column.
+
+```SQL
+  SELECT * FROM galaxy INNER JOIN star ON galaxy.galaxy_id = star.galaxy_id;
+```
+
+### Consult #2
+With this consult, we call it a general table with key references to the rest of the tables.
+
+```SQL
+  SELECT * FROM universe_entity
+```
+
+## Conclusion
+
+This project helped me revise the principle commands of PSQL. Using Chat-GPT, I could save time searching or creating data, and that let me focus on the most important part of the code. With this, we can see the use of Constraints, Primary Keys, and reference keys.
