@@ -8,12 +8,13 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
 </p>
 
 ## Setup:
-Setup database
+In "universe.sql" revise all "TO owner" you need to change it to your user.
+### Setup database
 ```BASH
   psql -U postgres < universe.sql
 ```
 
-Save changes
+### Save changes
 ```BASH
   pg_dump -cC --inserts -U (psql-user) universe > universe.sql
 ```
