@@ -7,6 +7,17 @@ This is a database of celestial bodies with data provided by **Chat-GPT**. I onl
   <img width="400" height="400" src="src/icon.png">
 </p>
 
+## Setup:
+Setup database
+```BASH
+  psql -U postgres < universe.sql
+```
+
+Save changes
+```BASH
+  pg_dump -cC --inserts -U (psql-user) universe > universe.sql
+```
+
 ## Tables
 
 ### galaxy
