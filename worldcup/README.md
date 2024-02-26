@@ -75,3 +75,7 @@ Year and team name of all the champions:
 ```SQL
   SELECT year, name FROM games FULL JOIN teams ON teams.team_id = games.winner_id WHERE round='Final' ORDER BY year
 ```
+
+## Conclusion
+
+This project helped me revise the use of the command script, to do everything more easily with PSQL. Also, I understand more specific commands to make the best queries and give better data.
