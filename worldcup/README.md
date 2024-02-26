@@ -33,8 +33,6 @@ There are queries, which will give you different information
 ```
 
 ## Tables
-
-<center>
 ### teams
 | team_id |     name      |
 |---------|---------------|
@@ -46,20 +44,17 @@ There are queries, which will give you different information
 |       6 | Sweden|
  |      7 | Brazil|
 |       8 | Uruguay|
-</center>
 
 <p align="center">
   <img width="150" height="150" src="src/teams.png">
 </p>
 
 ### games
-<center>
 | game_id | year |     round     | winner_id | opponent_id | winner_goals | opponent_goals |
 |---------|------|---------------|-----------|-------------|--------------|----------------|
 |       1 | 2018 | Final         |         1 |           2 |            4 |              2|
 |       2 | 2018 | Third Place   |         3 |           4 |            2 |              0|
 |       3 | 2018 | Semi-Final    |         2 |           4 |            2 |              1|
-</center>
 
 <p align="center">
   <img width="150" height="150" src="src/game.png">
