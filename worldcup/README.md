@@ -35,30 +35,30 @@ There are queries, which will give you different information
 ## Tables
 
 ### teams
- team_id |     name      
----------|---------------
-       1 | France
-       2 | Croatia
-       3 | Belgium
-       4 | England
-       5 | Russia
-       6 | Sweden
-       7 | Brazil
-       8 | Uruguay
+| team_id |     name      |
+|---------|---------------|
+|       1 | France|
+|       2 | Croatia|
+|       3 | Belgium|
+|       4 | England|
+|       5 | Russia|
+|       6 | Sweden|
+ |      7 | Brazil|
+|       8 | Uruguay|
 
 <p align="center">
-  <img width="150" height="150" src="src/star.png">
+  <img width="150" height="150" src="src/teams.png">
 </p>
 
 ### games
- game_id | year |     round     | winner_id | opponent_id | winner_goals | opponent_goals 
----------|------|---------------|-----------|-------------|--------------|----------------
-       1 | 2018 | Final         |         1 |           2 |            4 |              2
-       2 | 2018 | Third Place   |         3 |           4 |            2 |              0
-       3 | 2018 | Semi-Final    |         2 |           4 |            2 |              1
+| game_id | year |     round     | winner_id | opponent_id | winner_goals | opponent_goals |
+|---------|------|---------------|-----------|-------------|--------------|----------------|
+|       1 | 2018 | Final         |         1 |           2 |            4 |              2|
+|       2 | 2018 | Third Place   |         3 |           4 |            2 |              0|
+|       3 | 2018 | Semi-Final    |         2 |           4 |            2 |              1|
 
 <p align="center">
-  <img width="150" height="150" src="src/galaxy.png">
+  <img width="150" height="150" src="src/games.png">
 </p>
 
 ## Consults
