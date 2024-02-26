@@ -25,8 +25,8 @@ In "universe.sql" revise all "TO owner" you need to change it to your user.
 | galaxy_id |       name        | type_of_galaxy |                              description                              | distance_light_years | has_spiral_structure | has_elliptical_structure |
 |-----------|-------------------|----------------|-----------------------------------------------------------------------|----------------------|----------------------|--------------------------|
 |     1     | Milky Way         |     Spiral     | The Milky Way is the galaxy that contains our Solar System.           |        100000        |          t           |            f             |
-|     1     | Andromeda         |     Spiral     | The Andromeda Galaxy is the closest spiral galaxy to the Milky Way.   |        2500000       |          t           |            f             |
-|     1     | Triangulum Galaxy |     Spiral     | The Triangulum Galaxy is the third-largest galaxy in the Local Group. |        3000000       |          t           |            f             |
+|     2     | Andromeda         |     Spiral     | The Andromeda Galaxy is the closest spiral galaxy to the Milky Way.   |        2500000       |          t           |            f             |
+|     3     | Triangulum Galaxy |     Spiral     | The Triangulum Galaxy is the third-largest galaxy in the Local Group. |        3000000       |          t           |            f             |
 
 <p align="center">
   <img width="150" height="150" src="src/galaxy.png">
